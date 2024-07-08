@@ -1,0 +1,755 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.main {
+    background-image: url("Assests/Images/bg_navheader.png");
+    width: 100%;
+    height: 700px;
+    
+    filter: contrast(1.2);
+    filter:saturate(1.2);
+   background-position: center;
+   position: relative;
+}
+
+.main .box {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    width: 76.5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .options {
+    display: flex;
+    gap: 25px;
+
+    position: relative;
+    top: 17px;
+}
+
+nav .options .sign {
+    width: 76.9px;
+    height: 32px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+   border: 2px solid rgb(229, 9, 20);
+    z-index: 1;
+
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.options .sign:hover {
+    background-color: rgb(180, 6, 15);
+    border: 2px solid rgb(180, 6, 15);
+    opacity: 0.9;
+}
+
+nav .options .lang {
+    width: 126.4px;
+    height: 32px;
+    border: 0.1px solid white;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.options .lang:active{
+outline: 3px solid white;
+}
+
+.options p .arrow {
+    width: 13px;
+    height: 10px;
+    position: relative;
+    left: 9px;
+}
+
+.options p .laicon {
+    position: relative;
+    right: 8px;
+    height: 17px;
+}
+
+nav img {
+    width: 9.25rem;
+    height: 2.5rem;
+    position: relative;
+    top: 22px;
+    z-index: 1;
+}
+
+.divider {
+    width: 100%;
+    height: 8px;
+    background-color: rgb(35, 35, 35);
+}
+
+.texts {
+    margin-top: 17%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.texts h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+}
+
+.texts span {
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    position: relative;
+    word-wrap: break-word;
+
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    top: 18px;
+    
+}
+
+.email .emid {
+    width: 364.75px;
+    height: 56px;
+    background-color: black;
+    border: 1px solid white;
+    opacity: 0.5;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    position: relative;
+    
+}
+
+.email button svg {
+    position: relative;
+    height: 25px;
+    top: 3px;
+    left: 8px;
+}
+
+::placeholder {
+   
+    position: relative;
+    left: 15px;
+    
+   color: #FFFFFF;
+   opacity: 1;
+   text-shadow: 0 0 5px rgba(255, 255, 255, 2);
+}
+
+.email .started {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    width: 213.25px;
+    height: 56px;
+    background-color: rgb(229, 9, 20);
+    z-index: 1;
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid rgb(229, 9, 20);
+    cursor: pointer;
+}
+
+.email .started:hover {
+    background-color: rgb(249, 39, 50);
+    border: 2px solid rgb(250, 42, 52);
+    opacity: 0.9;
+}
+
+
+
+/* 2nd */
+.first {
+    background-color: black;
+    width: 100%;
+    height: 574px;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 4px;
+    width: 540px;
+    object-fit:cover;
+}
+
+.enjoy {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 52px;
+    font-weight: 830px;
+}
+
+.enjoypara {
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+.sectext {
+    position: relative;
+    right: 70px;
+    bottom: 18px;
+}
+
+.second {
+    background-color: black;
+    width: 100%;
+    height: 574px;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.secondvideo {
+display: flex;
+width: 316.7px;
+height: 103.2px;
+border: 1px solid rgb(175, 171, 171);
+border-radius: 8px;
+position: absolute;
+right: 868px;
+top: 238vh;
+background-color: black;
+}
+
+.component {
+    width: 57.14px;
+    height: 84px;
+    
+   position: relative;
+   left: 12px;
+   top: 8px;
+}
+
+.downtext {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 8px;
+    left: 27px;
+}
+
+.downtext p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.downtext span {
+    position: relative;
+    top: 19px;
+    right: 115px;
+    font-weight: lighter;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.secondimg {
+    position: relative;
+}
+
+.secondvideo .gif2 {
+    width: 48px;
+    height: 60px;
+    display: flex;
+    align-self: center;
+    position: relative;
+    right: 22px;
+    object-fit: cover;
+}
+
+.secondmain {
+    width: 579px;
+    height: 434px;
+    position: relative;
+    right: 20px;
+    bottom: 4px;
+}
+
+.secondtext h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 52px;
+    font-weight: 830px;
+
+}
+
+.secondtext span {
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+
+/* third */
+.third {
+    background-color: black;
+    width: 100%;
+    height: 574px;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.thirdimg {
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+.thirdimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.thirdimg video {
+    position: absolute;
+    top: 25px;
+    right: 98px;
+    width: 360px;
+    height: 270px;
+    object-fit:cover;
+}
+
+.thirdtext {
+    position: relative;
+    right: 50px;
+    bottom: 15px;
+}
+
+.thirdtext {
+    h1 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 52px;
+    font-weight: 830px; 
+    }
+
+    span {
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 26px;
+    }
+}
+
+
+/* Fourth */
+.fourth {
+    background-color: black;
+    width: 100%;
+    height: 574px;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.fourthimg {
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+.fourthimg img {
+    width: 579px;
+    height: 434;
+    position: relative;
+    right: 60px;
+}
+
+
+.fourthtext {
+    position: relative;
+    right: 20px;
+    bottom: 15px;
+}
+
+.fourthtext {
+    h1 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 52px;
+    font-weight: 830px; 
+    }
+
+    span {
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 26px;
+    }
+}
+
+
+/* 5th faq */
+.faq {
+    background-color: black;
+    width: 100%;
+    height: 916px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.faq h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.faq .box {
+    display: flex;
+    flex-direction: column;  
+    gap: 8px;
+    cursor: pointer;
+} 
+
+.faq .box span {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1170px;
+    height: 84px;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+   align-items: center;
+   font-size: 24px;
+   padding-left: 20px;
+}
+
+.faq p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    padding-right: 20px;
+}
+
+.faq .box span svg {
+   margin-left: 820px;
+   width: 40px;
+   height: 40px;
+}
+
+.net {
+    position: relative;
+    left: 125px;
+}
+.can {
+    position: relative;
+    left: 90px;
+}
+.cancel {
+    position: relative;
+    left: 115px;
+}
+.good {
+    position: relative;
+    left: 50px;
+}
+
+
+.email2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    top: 18px;
+    
+}
+
+.email2 .emid2 {
+    width: 364.75px;
+    height: 56px;
+    background-color: black;
+    border: 1px solid white;
+    opacity: 0.5;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    position: relative;
+    
+}
+
+.emid2 ::placeholder {
+   
+    position: relative;
+    left: 15px;
+    
+   color: #FFFFFF;
+   opacity: 1;
+   text-shadow: 0 0 5px rgba(255, 255, 255, 2);
+}
+
+.email2 .started2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 213.25px;
+    height: 56px;
+    background-color: rgb(229, 9, 20);
+    z-index: 1;
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid rgb(229, 9, 20);
+    cursor: pointer;
+}
+
+.email2 .started2:hover {
+    background-color: rgb(249, 39, 50);
+    border: 2px solid rgb(250, 42, 52);
+    opacity: 0.8;
+}
+
+.email2 button svg {
+    position: relative;
+    height: 25px;
+    top: 3px;
+    left: 8px;
+}
+
+
+.more {
+    width: 100%;
+    height: 406px;
+}
+
+.more .call {
+    padding-top: 65px;
+    padding-left: 175px;
+    color: rgb(154, 149, 149);
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.more .call span {
+    text-decoration: underline;
+}
+
+.lang2 {
+    width: 126.4px;
+    height: 32px;
+    border: 0.1px solid white;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lang2:active{
+outline: 3px solid white;
+}
+
+.morebox {
+    display: grid;
+    grid-template-areas: "one two three four"
+                         "five six seven eight"
+                         "nine ten eleven twelve"
+                         "thirteen fourteen fifteen sixteen";
+  
+   justify-content: center;                   
+   align-items: center;
+   column-gap: 11vw;
+   row-gap: 2.5vh;
+
+   position: relative;
+   right: 6vw;
+   top: 4px;
+}
+
+.morebox a {
+    color: rgb(187, 183, 183);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+
+   .boxone {
+    grid-area: one;
+   }
+   .boxtwo {
+    grid-area: two;
+   }
+   .boxthree {
+    grid-area: three;
+   }
+   .boxfour {
+    grid-area: four;
+   }
+   .boxfive {
+    grid-area: five;
+   }
+   .boxsix {
+    grid-area: six;
+   }
+   .boxseven {
+    grid-area: seven;
+   }
+   .boxeight {
+    grid-area: eight;
+   }
+   .boxnine {
+    grid-area: nine;
+   }
+   .boxten {
+    grid-area: ten;
+   }
+   .boxeleven {
+    grid-area: eleven;
+   }
+   .boxtwelve {
+    grid-area: twelve;
+   }
+   .boxthirteen {
+    grid-area: thirteen;
+   }
+   .boxsfourteen {
+    grid-area: fourteen;
+   }
+   .boxsfifteen {
+    grid-area: fifteen;
+   }
+
+
+   .lang2 {
+    position: relative;
+    left: 170px;
+    top: 10px;
+
+    width: 126.4px;
+    height: 32px;
+    border: 0.1px solid white;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(24, 23, 23);
+    opacity: 0.6;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lang2:active{
+outline: 3px solid white;
+}
+
+.arrow2 {
+    width: 13px;
+    height: 10px;
+    position: relative;
+    left: 9px;
+}
+
+.laicon2 {
+    position: relative;
+    right: 8px;
+    height: 17px;
+}
+
+.netin {
+    color: rgb(190, 187, 187);
+    position: relative;
+    top: 33px;
+    left: 175px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+@media (max-width: 414px) {
+    /* Adjust your styles here for iPhone XR */
+    
+}
+
+
+
+
